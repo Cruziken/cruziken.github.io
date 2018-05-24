@@ -18,8 +18,8 @@ email: partimecruz8@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Hard work beats talent! This is the official site of Cruziken, the Honey Badger, the Azure Knight, the Hungry Dog! I will continue to work on updating this website with my research and hobbies while developing my coding skills. Let's go!
 cover: images/universe.jpg
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/cruziken.github.io/" # the subpath of your site, e.g. /blog
+url: "https://cruziken.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Not available
 github_username:  cruziken
 
