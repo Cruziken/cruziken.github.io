@@ -5,4 +5,31 @@ cover: 'assets/img/universe.jpg'
 date:   2018-05-23 15:30:20 -0400
 categories: jekyll update
 ---
-I'm not getting better, I'm just getting started. Greatness or nothing.
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Rasengan</title>
+
+  <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="content">
+    <img src="https://github.com/Cruziken/cruziken.github.io/tree/master/assets/img/rasengan.jpg" class="writer-img">
+    <h3 class="byline">Article By: Cruziken</h3>
+    <h1>What does it mean to have a life defined by failure?</h1>
+    <h2>It means to life a life moving closer to success!</h2>
+    <p>The say quiet dogs bite hard.</p>
+    <p>This is indeed true. </p>
+    <p>The return of the Cruziken is due again. </p>
+  </div>
+
+  <div class="image">
+    <p class="caption">Rasengan</p>
+  </div>
+
+</body>
+
+</html>
