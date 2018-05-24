@@ -18,7 +18,7 @@ email: partimecruz8@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Trying to figure everything out
 cover: "assets/images/universe.jpg"
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "cruziken.github.io" # the subpath of your site, e.g. /blog
 url: "http://cruziken.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: not available
 github_username:  cruziken
@@ -31,18 +31,24 @@ kramdown:
 
 plugins:
   - jekyll-paginate
+#Additional Pages
+about: about
+forge: forge
+poetry: poetry
 
 
-# Settings for rake task
-#safe: False
-#lsi: False
-#username: cruziken #github username
-#repo: cruziken.github.io #github repository
-#branch: master #branch
-#relative_source: ../cruziken.github.io/ #source directory
-#destination: ../hanuman-pages/ #destination directory
-#production_url:  https://samanyougarg.com/
-#source_url:  https://github.com/samanyougarg/hanuman #source repository url
+permalink: /:title
+
+ Settings for rake task
+safe: False
+lsi: False
+username: cruziken #github username
+repo: cruziken.github.io #github repository
+branch: master #branch
+relative_source: ../cruziken.github.io/ #source directory
+destination: ../cruziken.github.io/ #destination directory
+production_url:  https://cruziken.com/
+source_url:  https://github.com/Cruziken/cruziken.github.io #source repository url
 
 exclude:
   - README.md
