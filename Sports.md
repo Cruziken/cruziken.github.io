@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Sports
+permalink: /sports/
 ---
 Future links to sports websites.
