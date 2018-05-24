@@ -17,8 +17,8 @@ title: Cruziken
 email: partimecruz8@gmail.com
 description:
   Trying to figure everything out
-cover: assets/images/radhakrishna.jpg
-logo: assets/images/logo.png
+cover: assets/images/universe.jpg
+logo: assets/images/universe.png
 favicon: assets/images/favicon.png
 baseurl: "/home/" # the subpath of your site, e.g. /blog
 url: "http://cruziken.com" # the base hostname & protocol for your site, e.g. http://example.com
