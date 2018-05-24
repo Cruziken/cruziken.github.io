@@ -1,10 +1,10 @@
 title: Cruziken
 author: Cruziken
 email: partimecruz8@gmail.com
-cover: 'assets/img/univers.jpg'
+cover: 'assets/img/universe.jpg'
 description: > # this means to ignore newlines until "twitter_username:"
   I am trying to get this website to look nice. It is taking a bit.
-
+paginate:	3 # The number of posts to show per page on your homepage
 # social links
 twitter_username: Not available
 github_username:  cruziken
@@ -45,3 +45,4 @@ theme: minima
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+ - jekyll-paginate
