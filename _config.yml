@@ -17,11 +17,22 @@ title: Cruziken
 email: partimecruz8@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Trying to figure everything out
-cover: "assets/images/universe.jpg"
-baseurl: "cruziken.github.io" # the subpath of your site, e.g. /blog
+cover: assets/images/radhakrishna.jpg
+logo: assets/images/logo.png
+favicon: assets/images/favicon.png
+baseurl: "/cruziken.github.io/" # the subpath of your site, e.g. /blog
 url: "http://cruziken.com" # the base hostname & protocol for your site, e.g. http://example.com
+# Social
 twitter_username: not available
 github_username:  cruziken
+
+#Additional Pages
+about: about
+forge: forge
+poetry: poetry
+
+
+permalink: /:title
 
 # Build settings
 markdown: kramdown
@@ -31,13 +42,7 @@ kramdown:
 
 plugins:
   - jekyll-paginate
-#Additional Pages
-about: about
-forge: forge
-poetry: poetry
 
-
-permalink: /:title
 
  Settings for rake task
 safe: False
