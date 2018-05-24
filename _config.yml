@@ -13,53 +13,31 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Cruziken
-email: partimecruz8@gmail.com
-description: Trying to figure everything out
-cover: assets/images/universe.jpg
-logo: assets/images/universe.jpg
-favicon: assets/images/favicon.png
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://cruziken.com" # the base hostname & protocol for your site, e.g. http://example.com
-# Social
-twitter_username: not available
-github_username:  cruziken
-
-#Additional Pages
-about: about
-forge: forge
-poetry: poetry
-
-
-permalink: /:title
+title: Your awesome title
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-
-kramdown:
-  parse_block_html: true
-
+theme: minima
 plugins:
-  - jekyll-paginate
+  - jekyll-feed
 
-
-#Settings for rake task
-safe: False
-lsi: False
-username: cruziken #github username
-repo: cruziken.github.io #github repository
-branch: master #branch
-relative_source: ../cruziken.github.io/ #source directory
-destination: ../cruziken.github.io/ #destination directory
-production_url:  https://cruziken.com/
-source_url:  https://github.com/Cruziken/cruziken.github.io #source repository url
-
-exclude:
-  - README.md
-  - Rakefile
-  - Gemfile
-  - Gemfile.lock
-  - changelog.md
-  - "*.Rmd"
-  - vendor
-  - .travis.yml
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
