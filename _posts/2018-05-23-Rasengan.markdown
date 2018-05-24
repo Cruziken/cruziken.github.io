@@ -5,7 +5,7 @@ cover: 'assets/img/universe.jpg'
 date:   2018-05-23 15:30:20 -0400
 categories: jekyll update
 ---
-<!DOCTYPE html>
+
 <html>
 
 <head>
@@ -17,7 +17,7 @@ categories: jekyll update
 <body>
 
   <div class="content">
-    ![My helpful screenshot]({{ "/assets/img/rasengan.jpg" | https://github.com/Cruziken/cruziken.github.io/ }})
+    ![My helpful screenshot]({{ "/assets/img/rasengan.jpg" | https://github.com/Cruziken/cruziken.github.io }})
     <h3 class="byline">Article By: Cruziken</h3>
     <h1>What does it mean to have a life defined by failure?</h1>
     <h2>It means to life a life moving closer to success!</h2>
