@@ -25,19 +25,31 @@ github_username:  cruziken
 
 # Build settings
 markdown: kramdown
-theme: minima
+
+kramdown:
+  parse_block_html: true
+
 plugins:
-  - jekyll-feed
+  - jekyll-paginate
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
 
+# Settings for rake task
+#safe: False
+#lsi: False
+#username: cruziken #github username
+#repo: cruziken.github.io #github repository
+#branch: master #branch
+#relative_source: ../cruziken.github.io/ #source directory
+#destination: ../hanuman-pages/ #destination directory
+#production_url:  https://samanyougarg.com/
+#source_url:  https://github.com/samanyougarg/hanuman #source repository url
+
+exclude:
+  - README.md
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - changelog.md
+  - "*.Rmd"
+  - vendor
+  - .travis.yml
