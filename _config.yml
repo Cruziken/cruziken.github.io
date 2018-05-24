@@ -19,7 +19,7 @@ description: Trying to figure everything out
 cover: assets/images/universe.jpg
 logo: assets/images/universe.jpg
 favicon: assets/images/favicon.png
-baseurl: "/cruziken.github.io/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://cruziken.com" # the base hostname & protocol for your site, e.g. http://example.com
 # Social
 twitter_username: not available
