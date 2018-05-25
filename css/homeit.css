@@ -76,7 +76,7 @@ body {
 
 /* Typography */
 h1 {
-  color: #41292C;
+  color: #C0C0C0;
   font-family: Impact, Charcoal, sans-serif;
   font-size: 100px;
   line-height: 76px;
@@ -87,7 +87,7 @@ h1 {
 }
 
 h2 {
-  color: #E4BB97;
+  color: #C0C0C0;
   font-family: 'Raleway', sans-serif;
   font-size: 28px;
   font-weight: 500;
@@ -96,7 +96,7 @@ h2 {
 }
 
 h3 {
-  color: #41292C;
+  color: #C0C0C0;
   font-family: 'Raleway', sans-serif;
   font-size: 22px;
   font-weight: 500;
