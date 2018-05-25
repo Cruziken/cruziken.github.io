@@ -36,7 +36,7 @@ h1 {
 }
 
 h2 {
-  border: 1px dotted rgb(0, 0, 102);
+  border: 1px dotted blue;
   color: rgb(0, 0, 102);
   font-size: 14px;
   line-height: 48px;
@@ -82,8 +82,8 @@ p {
 }
 
 .share a {
-  background: rgb(0, 0, 102);
-  border: 1px solid rgb(0, 0, 102);
+  background: blue;
+  border: 1px solid blue;
   border-radius: 3px;
   color: white;
   display: inline-block;
@@ -94,6 +94,6 @@ p {
 
 .share a:hover {
   background: white;
-  border: 1px solid rgb(0, 0, 102);
+  border: 1px solid blue;
   color: rgb(0, 0, 102);
 }
