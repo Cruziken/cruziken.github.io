@@ -6,6 +6,5 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: home
-cover: cover
 ---
 Testing the code
