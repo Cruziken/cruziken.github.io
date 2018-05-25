@@ -5,13 +5,13 @@
 body {
   padding: 0;
   margin: 0;
-  background: #F7F7F7;
+  background: #000080;
   /* Old browsers */
-  background: -moz-linear-gradient(45deg, #F7F7F7 0%, #191970 100%);
+  background: -moz-linear-gradient(45deg, #000080 0%, #191970 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(45deg, #F7F7F7 0%, #191970 100%);
+  background: -webkit-linear-gradient(45deg, #000080 0%, #191970 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(45deg, #F7F7F7 0%, #191970 100%);
+  background: linear-gradient(45deg, #000080 0%, #191970 100%);
 }
 
 /** Header styles **/
