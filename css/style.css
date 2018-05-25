@@ -4,7 +4,7 @@
 @import "{{ site.theme }}";
 
 #banner {
-  background-image: url("https://github.com/Cruziken/cruziken.github.io/tree/master/assets/img/rasengan.jpg");
+  background-image: url("/assets/img/rasengan.jpg");
   background-size: cover;
   background-position: bottom center;
   height: 700px;
