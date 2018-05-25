@@ -1,0 +1,76 @@
+---
+layout: default
+---
+<html>
+<head>
+  <title>Home</title>
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Raleway:100,200,600,700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/css/homeit.css">
+</head>
+<body>
+<div class="header">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+ <div class="notes">
+    <h3>A Note on Roasting</h3>
+    <p>Roasting coffee transforms the chemical and physical properties of raw coffee beans into roasted coffee products. This process is what produces the characteristic flavor of coffee by causing the green coffee beans to change in taste. Many coffee roasters determine the level of roast by eye, assessing the color of the beans to determine the desired roast-level.</p>
+  <br>
+      <div class="spectrum">
+        <div class="determination">
+          <h4>Determination</h4>
+          <h5>22&degC (72&degF)</h5>
+          <p>The old saying when you want to succeed more than you want to breath.</p>
+        </div>
+        <div class="patience">
+          <h4>Patience</h4>
+          <h5>205&degC (401&degF)</h5>
+          <p>The only path to true greatness requires a willingness to wait.</p>
+        </div>
+        <div class="focus">
+          <h4>Focus</h4>
+          <h5>219&degC (426&degF)</h5>
+          <p>This goes by many names, Sage Mode, Super Saiyan, Berserker Armour. At the end of the day ultimate performance requires ultimate focus.</p>
+        </div>
+        <div class="empathy">
+          <h4>Empathy</h4>
+          <h5>230&degC (446&degF)</h5>
+          <p>True greatness is when you conquer your demons without becoming one. Don't be a jerk.</p>
+        </div>
+        <div class="yourself">
+          <h4>Yourself</h4>
+          <h5>245&degC (473&degF)</h5>
+          <p>At this point, you have a pretty good idea of what type of person you are and who you are not. Realize this.</p>
+        </div>
+      </div>
+  </div>
+  <div>
+  {%- if site.posts.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Cruziken Notes" }}</h2>
+    <ul class="post-list">
+      {%- for post in site.posts -%}
+      <li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  {%- endif -%}
+
+</div>
+
+ 
+</body>
+</html>
