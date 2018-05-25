@@ -1,12 +1,12 @@
 title: Cruziken
 author: Cruziken
-email: partimecruz8@gmail.com
+email: the.cruziken@gmail.com
 cover: 'assets/img/universe.jpg'
 description: > # this means to ignore newlines until "twitter_username:"
   I am trying to get this website to look nice. It is taking a bit.
 paginate:	3 # The number of posts to show per page on your homepage
 # social links
-twitter_username: Not available
+twitter_username: cruziken
 github_username:  cruziken
 rss: rss
 
