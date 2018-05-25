@@ -19,8 +19,6 @@ body {
   background-image: url("https://images6.alphacoders.com/312/thumb-1920-312428.jpg");
   height: 450px;
   background-position: center center;
-  position: relative;
-  top: 200px;
   border: 3px solid #C0C0C0;
   overflow: hidden;
 }
@@ -88,7 +86,7 @@ h1 {
   margin: 0;
   position: relative;
   text-align: center;
-  top: 20%;
+  top: 30%;
 }
 
 h2 {
