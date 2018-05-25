@@ -21,7 +21,7 @@ body {
   background-position: center center;
 }
 
-.roasting {
+.notes {
   margin: 40px auto;
   padding: 20px 30px 40px 30px;
   background-color: #FFFFFFFFF;
@@ -31,7 +31,7 @@ body {
   align-self: center;
 }
 
-.roasting p {
+.notes p {
   color: #938E89;
   text-align: center;
   line-height: 24px;
