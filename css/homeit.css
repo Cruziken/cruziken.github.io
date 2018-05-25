@@ -19,6 +19,7 @@ body {
   background-image: url("https://images6.alphacoders.com/312/thumb-1920-312428.jpg");
   height: 450px;
   background-position: center center;
+  border: 3px solid #C0C0C0;
 }
 
 .notes {
