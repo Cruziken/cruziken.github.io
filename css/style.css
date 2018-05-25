@@ -36,8 +36,8 @@ h1 {
 }
 
 h2 {
-  border: 1px dotted red;
-  color: red;
+  border: 1px dotted rgb(0, 0, 102);
+  color: rgb(0, 0, 102);
   font-size: 14px;
   line-height: 48px;
   padding: 20px 30px;
@@ -46,14 +46,14 @@ h2 {
 }
 
 h3 {
-  color: red;
+  color: rgb(0, 0, 102);
   font-size: 26px;
   font-weight: 700;
   padding: 20px 10px;
 }
 
 p {
-  color: grey;
+  color: black;
   font-size: 16px;
   line-height: 48px;
   margin-top: 60px;
@@ -82,8 +82,8 @@ p {
 }
 
 .share a {
-  background: red;
-  border: 1px solid red;
+  background: rgb(0, 0, 102);
+  border: 1px solid rgb(0, 0, 102);
   border-radius: 3px;
   color: white;
   display: inline-block;
@@ -94,6 +94,6 @@ p {
 
 .share a:hover {
   background: white;
-  border: 1px solid red;
-  color: red;
+  border: 1px solid rgb(0, 0, 102);
+  color: rgb(0, 0, 102);
 }
