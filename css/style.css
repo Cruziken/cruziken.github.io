@@ -46,7 +46,7 @@ h2 {
 }
 
 h3 {
-  color: rgb(0, 0, 102);
+  color: blue;
   font-size: 26px;
   font-weight: 700;
   padding: 20px 10px;
@@ -95,5 +95,5 @@ p {
 .share a:hover {
   background: white;
   border: 1px solid blue;
-  color: rgb(0, 0, 102);
+  color: blue;
 }
