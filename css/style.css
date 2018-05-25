@@ -4,7 +4,7 @@
 @import "{{ site.theme }}";
 
 #banner {
-  background-image: url("https://4.bp.blogspot.com/-YdvhHyWPvBk/WcUKxdK26xI/AAAAAAAAANw/mT20S0pvJD4HUZbd4R-FqfU-ezQbR0akwCLcBGAs/s1600/hqdefault.jpg");
+  background-image: "assets/img/rasengan.jpg";
   background-size: cover;
   background-position: bottom center;
   height: 700px;
