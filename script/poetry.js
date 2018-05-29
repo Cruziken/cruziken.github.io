@@ -1,7 +1,7 @@
 const password = 'lucario';
 var passwordTry = prompt("Please enter your name", "Your name here");
 
-if (passwordTry == lucario) {
+if (passwordTry == password) {
     document.getElementById("content");
 }
 else {
