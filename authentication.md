@@ -1,4 +1,4 @@
 ---
-layout: page
-title: password
+layout: password
+title: SignUp
 ---
