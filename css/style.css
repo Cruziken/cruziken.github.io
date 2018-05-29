@@ -4,7 +4,7 @@
 @import "{{ site.theme }}";
 
 #banner {
-  background-image: "_site/assets/img/rasengan.jpg");
+  background-image: "{{site.baseurl}}/assets/img/rasengan.jpg");
   background-size: cover;
   background-position: bottom center;
   height: 700px;
