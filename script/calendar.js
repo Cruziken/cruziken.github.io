@@ -39,9 +39,9 @@ function defaultEvents(dataDay,dataName,dataNotes,classTag){
 }
 
 defaultEvents(today, 'YEAH!','Today is your day','important');
-defaultEvents('2018-12-25', 'MERRY CHRISTMAS','Let us go!!!!','festivity');
-defaultEvents('2018-01-01', "First day of the year",'Who is the Cruziken?','festivity');
-defaultEvents('2017-03-10', "You were born",'Congrats!!!!','birthday');
+defaultEvents('2017-12-25', 'MERRY CHRISTMAS','A lot of gift!!!!','festivity');
+defaultEvents('2017-05-04', "LUCA'S BIRTHDAY",'Another gifts...?','birthday');
+defaultEvents('2017-03-03', "MY LADY'S BIRTHDAY",'A lot of money to spent!!!!','birthday');
 
 
 // ------ functions control -------
