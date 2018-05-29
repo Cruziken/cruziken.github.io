@@ -8,8 +8,20 @@ layout: page
   <script src="{{"/script/jquery.min.js" | prepend: site.baseurl}}"></script>
   <script src="{{"/script/moment.min.js" | prepend: site.baseurl}}"></script>
   <script src="{{"/script/fullcalendar.js" | prepend: site.baseurl}}"></script>
+  <script>
+    $(function() {
+
+  // page is now ready, initialize the calendar...
+
+  $('#calendar').fullCalendar({
+    // put your options and callbacks here
+  })
+
+  </script>
+  
   </head>
   <body>
-    Testing the code.
+    <div id='calendar'></div>
+    
   </body>
 </html>
