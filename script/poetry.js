@@ -1,3 +1,4 @@
+<!--
 const password = 'lucario';
 function myPassword(){
 var passwordTry = prompt("Please enter your name", "Your name here");
@@ -9,4 +10,4 @@ else {
     document.getElementById("noacces");
 }
 }
- 
+--> 
