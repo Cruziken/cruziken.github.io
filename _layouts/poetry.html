@@ -15,19 +15,19 @@ layout: page
 
 <p id="demo"></p>
    
-<p id = "passed">  You passed</p>
+<p id = "passed"> </p>
  
-   <p id = "failed">You failed </p>
+   <p id = "failed"></p>
 <script>
 const password = 'lucario';
 function myPassword(){
 var passwordTry = prompt("Please enter your name", "Your name here");
 
 if (passwordTry == password) {
-    document.getElementById("passed");
+    document.getElementById("passed").innerHTML = "You passed.";
 }
 else {
-    document.getElementById("failed");
+    document.getElementById("failed").innerHTML = "You failed.";
 }
 }
 </script>
