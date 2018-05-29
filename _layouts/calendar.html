@@ -5,8 +5,90 @@
   <link rel="stylesheet" type="text/css" href="css/calend.css">
 </head>
 <body>
+<script>
+  // fill the month table with column headings
+function day_title(day_name) {
+    document.write("<div class='c-cal__col'>" + day_name + "</div>");
+  }
+  // fills the month table with numbers
+function fill_table(month, month_length, indexMonth) {
+    day = 1;
+    // begin the new month table
+    document.write("<div class='c-main c-main-" + indexMonth + "'>");
+    //document.write("<b>"+month+" "+year+"</b>")
+
+    // column headings
+    document.write("<div class='c-cal__row'>");
+    day_title("Sun");
+    day_title("Mon");
+    day_title("Tue");
+    day_title("Wed");
+    day_title("Thu");
+    day_title("Fri");
+    day_title("Sat");
+    document.write("</div>");
+
+    // pad cells before first day of month
+    document.write("<div class='c-cal__row'>");
+    for (var i = 1; i < start_day; i++) {
+      if (start_day > 7) {
+      } else {
+        document.write("<div class='c-cal__cel'></div>");
+      }
+    }
+
+    // fill the first week of days
+    for (var i = start_day; i < 8; i++) {
+      document.write(
+        "<div data-day='2017-" +
+          indexMonth +
+          "-0" +
+          day +
+          "'class='c-cal__cel'><p>" +
+          day +
+          "</p></div>"
+      );
+      day++;
+    }
+    document.write("</div>");
+
+    // fill the remaining weeks
+    while (day <= month_length) {
+      document.write("<div class='c-cal__row'>");
+      for (var i = 1; i <= 7 && day <= month_length; i++) {
+        if (day >= 1 && day <= 9) {
+          document.write(
+            "<div data-day='2017-" +
+              indexMonth +
+              "-0" +
+              day +
+              "'class='c-cal__cel'><p>" +
+              day +
+              "</p></div>"
+          );
+          day++;
+        } else {
+          document.write(
+            "<div data-day='2017-" +
+              indexMonth +
+              "-" +
+              day +
+              "' class='c-cal__cel'><p>" +
+              day +
+              "</p></div>"
+          );
+          day++;
+        }
+      }
+      document.write("</div>");
+      // the first day of the next month
+      start_day = i;
+    }
+
+    document.write("</div>");
+  }
+</script>
 <header>
-  
   <div class="wrapper">
     <div class="c-monthyear">
     <div class="c-month">
@@ -27,17 +109,17 @@
         </div>
         <span id="next" class="next fa fa-angle-right" aria-hidden="true"></span>
       </div>
-      <span class="c-paginator__year">2018</span>
+      <span class="c-paginator__year">2017</span>
     </div>
     <div class="c-sort">
-      <a class="o-btn c-today__btn" href="script/calendars.js;">TODAY</a>
+      <a class="o-btn c-today__btn" href="javascript:;">TODAY</a>
     </div>
   </div>
 </header>
 <div class="wrapper">
   <div class="c-calendar">
     <div class="c-calendar__style c-aside">
-      <a class="c-add o-btn js-event__add" href="script/calendars.js;">add event <span class="fa fa-plus"></span></a>
+      <a class="c-add o-btn js-event__add" href="javascript:;">add event <span class="fa fa-plus"></span></a>
       <div class="c-aside__day">
         <span class="c-aside__num"></span> <span class="c-aside__month"></span>
       </div>
@@ -48,7 +130,7 @@
       <script>
       
       // CAHNGE the below variable to the CURRENT YEAR
-      year = 2018;
+      year = 2017;
 
       // first day of the week of the new year
       today = new Date("January 1, " + year);
@@ -70,7 +152,7 @@
   </div>
 
   <div class="c-event__creator c-calendar__style js-event__creator">
-    <a href="script/calendar.js;" class="o-btn js-event__close">CLOSE <span class="fa fa-close"></span></a>
+    <a href="javascript:;" class="o-btn js-event__close">CLOSE <span class="fa fa-close"></span></a>
     <form id="addEvent">
       <input placeholder="Event name" type="text" name="name">
       <input type="date" name="date">
@@ -83,10 +165,8 @@
         </select>
     </form>
     <br>
-    <a href="script/calendar.js;" class="o-btn js-event__save">SAVE <span class="fa fa-save"></span></a>
+    <a href="javascript:;" class="o-btn js-event__save">SAVE <span class="fa fa-save"></span></a>
   </div>
 </div>
-   <script src = "{{"/script/calendars.js" | prepend: site.baseurl}}"></script>
-</html>
   </body>
 </html>
