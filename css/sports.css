@@ -27,6 +27,7 @@ body {
     text-align: center;
     color: #191970;
     font-family: Righteous, cursive;
+    height: 300px; /* Should be removed. Only for demonstration */
 }
 
 /* Clear floats after the columns */
@@ -37,7 +38,6 @@ body {
     text-align: center;
     color: #191970;
     font-family: Righteous, cursive;
-    width: 25%;
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
