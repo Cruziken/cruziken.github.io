@@ -17,6 +17,7 @@ body {
   background: -webkit-linear-gradient(45deg, #000080 0%, #C0C0C0 100%);
   /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(45deg, #000080 0%, #C0C0C0 100%);
+  text-align: center;
 }
 
 /* Create three equal columns that floats next to each other */
@@ -24,7 +25,7 @@ body {
     float: left;
     width: 33.33%;
     padding: 10px;
-    text-align: center;
+  
 }
 
 /* Clear floats after the columns */
@@ -32,7 +33,7 @@ body {
     content: "";
     display: table;
     clear: both;
-     text-align: center;
+  
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
@@ -52,7 +53,6 @@ h1 {
   line-height: 76px;
   margin: 0;
   position: relative;
-  text-align: center;
   top: 40%;
 }
 
