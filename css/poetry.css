@@ -15,7 +15,7 @@ body {
 }
 
 /** Header styles **/
-.head {
+head {
   background-image: url("https://images6.alphacoders.com/312/thumb-1920-312428.jpg");
   height: 450px;
   background-position: center center;
@@ -23,7 +23,7 @@ body {
   overflow: hidden;
 }
 
-.notes {
+.demo {
   margin: 40px auto;
   padding: 20px 30px 40px 30px;
   background-color: #FFFFFFFFF;
@@ -34,7 +34,7 @@ body {
   border: 3px solid #C0C0C0;
 }
 
-.notes p {
+.demo p {
   color: #C0C0C0;
   text-align: center;
   line-height: 24px;
@@ -90,7 +90,7 @@ h1 {
   top: 40%;
 }
 
-h2 {
+h2 .passed {
   color: #C0C0C0;
   font-family: 'Raleway', sans-serif;
   font-size: 28px;
@@ -99,7 +99,7 @@ h2 {
   text-transform: uppercase;
 }
 
-h3 {
+h3 .failed {
   color: #C0C0C0;
   font-family: 'Raleway', sans-serif;
   font-size: 22px;
