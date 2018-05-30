@@ -61,11 +61,11 @@ h2 .passed {
   font-family: 'Raleway', sans-serif;
   font-size: 28px;
   font-weight: 500;
-  text-align: left;
+  text-align: center;
   text-transform: uppercase;
 }
 
-h3 .failed {
+h3 p {
   color: #191970;
   font-family: 'Raleway', sans-serif;
   font-size: 22px;
