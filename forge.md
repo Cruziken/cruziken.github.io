@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: forge
 title: The Forge
 permalink: /forge/
 ---
