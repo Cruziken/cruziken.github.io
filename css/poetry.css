@@ -7,11 +7,11 @@ body {
   margin: 0;
   background: #000080;
   /* Old browsers */
-  background: -moz-linear-gradient(45deg, #000080 0%, #191970 100%);
+  background: -moz-linear-gradient(45deg, #000080 0%, #C0C0C0 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(45deg, #000080 0%, #191970 100%);
+  background: -webkit-linear-gradient(45deg, #000080 0%, #C0C0C0 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(45deg, #000080 0%, #191970 100%);
+  background: linear-gradient(45deg, #000080 0%, #C0C0C0 100%);
 }
 
 /** Header styles **/
@@ -19,7 +19,7 @@ body {
   background-image: url("https://images6.alphacoders.com/312/thumb-1920-312428.jpg");
   height: 450px;
   background-position: center center;
-  border: 3px solid #C0C0C0;
+  border: 3px solid #191970;
   overflow: hidden;
 }
 
@@ -31,11 +31,11 @@ body {
   width: 75%;
   border-radius: 4px;
   align-self: center;
-  border: 3px solid #C0C0C0;
+  border: 3px solid #191970;
 }
 
 .demo p {
-  color: #C0C0C0;
+  color: #191970;
   text-align: center;
   line-height: 24px;
   font-family: 'Raleway', sans-serif;
@@ -79,7 +79,7 @@ body {
 
 /* Typography */
 h1 {
-  color: #C0C0C0;
+  color: #191970;
   font-family: 'Righteous', cursive;
   font-size: 80px;
   font-weight: bold;
@@ -91,7 +91,7 @@ h1 {
 }
 
 h2 .passed {
-  color: #C0C0C0;
+  color: #191970;
   font-family: 'Raleway', sans-serif;
   font-size: 28px;
   font-weight: 500;
@@ -100,7 +100,7 @@ h2 .passed {
 }
 
 h3 .failed {
-  color: #C0C0C0;
+  color: #191970;
   font-family: 'Raleway', sans-serif;
   font-size: 22px;
   font-weight: 500;
@@ -108,7 +108,7 @@ h3 .failed {
 }
 
 h4 {
-  color: #C0C0C0;
+  color: #191970;
   font-family: 'Raleway', sans-serif;
   font-size: 24px;
   font-weight: 700;
@@ -120,7 +120,7 @@ h4 {
 }
 
 h5 {
-  color: #C0C0C0;
+  color: #191970;
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   line-height: .2em;
@@ -135,14 +135,14 @@ ul {
 }
 
 li {
-  border-bottom: 1px solid #C0C0C0;
+  border-bottom: 1px solid #191970;
   list-style: none;
   margin: 100px 0px;
   padding-bottom: 60px;
 }
 
 a {
-  color: #C0C0C0;
+  color: #191970;
   font-family: 'Raleway', sans-serif;
   font-size: 13px;
   font-weight: 900;
