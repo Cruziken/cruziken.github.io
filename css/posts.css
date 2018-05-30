@@ -1,0 +1,53 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.post-header {
+
+}
+
+.post-title {
+
+}
+
+.post-meta {
+}
+
+.dt-published {
+}
+
+div {
+
+}
+body {
+  padding: 0;
+  margin: 0;
+  background: #000080;
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, #000080 0%, #191970 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #000080 0%, #191970 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #000080 0%, #191970 100%);
+}
+ p {
+  margin: 40px auto;
+  padding: 20px 30px 40px 30px;
+  background-color: #FFFFFFFFF;
+  overflow: auto;
+  width: 75%;
+  border-radius: 4px;
+  align-self: center;
+  border: 3px solid #C0C0C0;
+}
+
+.post-header p {
+  color: #C0C0C0;
+  text-align: center;
+  line-height: 24px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
