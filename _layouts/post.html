@@ -10,7 +10,6 @@ layout: home
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="postheader">
-    <h1 class="posttitle pname" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="postmeta">
       <time class="dtpublished" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
