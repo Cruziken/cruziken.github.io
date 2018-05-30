@@ -13,69 +13,32 @@ body {
   /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(45deg, #000080 0%, #C0C0C0 100%);
 }
-
-/** Header styles **/
-.header {
-  background-image: url("https://images6.alphacoders.com/312/thumb-1920-312428.jpg");
-  height: 450px;
-  background-position: center center;
-  border: 3px solid #191970;
-  overflow: hidden;
+* {
+    box-sizing: border-box;
 }
 
-.demo {
-  margin: 40px auto;
-  padding: 20px 30px 40px 30px;
-  background-color: #FFFFFFFFF;
-  overflow: auto;
-  width: 75%;
-  border-radius: 4px;
-  align-self: center;
-  border: 3px solid #191970;
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
 }
 
-.demo p {
-  color: #191970;
-  text-align: center;
-  line-height: 24px;
-  font-family: 'Raleway', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
-.spectrum div {
-  font: inherit;
-  padding: 0 20px;
-  color: #FFFFFF;
-  overflow: auto;
-  opacity: 0.9;
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
 }
 
-.spectrum p {
-  color: #FFFFFF;
-  text-align: left;
-}
-
-/* Roast types */
-.green {
-  background-color: DarkSeaGreen;
-}
-
-.light {
-  background-color: Sienna;
-}
-
-.city {
-  background-color: SaddleBrown;
-}
-
-.vienna {
-  background-color: Brown;
-}
-
-.italian {
-  background-color: Black;
-}
 
 /* Typography */
 h1 {
