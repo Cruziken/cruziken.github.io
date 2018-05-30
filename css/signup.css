@@ -2,10 +2,18 @@
 ---
 
 @import "{{ site.theme }}";
-body {
-  padding: 0;
-  margin: 0;
-  background: #000080;
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+   background: #000080;
   /* Old browsers */
   background: -moz-linear-gradient(45deg, #000080 0%, #C0C0C0 100%);
   /* FF3.6-15 */
@@ -14,140 +22,99 @@ body {
   background: linear-gradient(45deg, #000080 0%, #C0C0C0 100%);
 }
 
-/** Header styles **/
-.header {
-  background-image: url("https://images6.alphacoders.com/312/thumb-1920-312428.jpg");
-  height: 450px;
-  background-position: center center;
-  border: 3px solid #191970;
-  overflow: hidden;
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
 }
 
-.demo {
-  margin: 40px auto;
-  padding: 20px 30px 40px 30px;
-  background-color: #FFFFFFFFF;
-  overflow: auto;
-  width: 75%;
-  border-radius: 4px;
-  align-self: center;
-  border: 3px solid #191970;
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
 }
 
-.demo p {
-  color: #191970;
-  text-align: center;
-  line-height: 24px;
-  font-family: 'Raleway', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
+button:hover {
+    opacity:1;
 }
 
-.spectrum div {
-  font: inherit;
-  padding: 0 20px;
-  color: #FFFFFF;
-  overflow: auto;
-  opacity: 0.9;
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
 }
 
-.spectrum p {
-  color: #FFFFFF;
-  text-align: left;
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
 }
 
-/* Roast types */
-.green {
-  background-color: DarkSeaGreen;
+/* Add padding to container elements */
+.container {
+    padding: 16px;
 }
 
-.light {
-  background-color: Sienna;
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #474e5d;
+    padding-top: 50px;
 }
 
-.city {
-  background-color: SaddleBrown;
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
 }
 
-.vienna {
-  background-color: Brown;
+/* Style the horizontal ruler */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
 }
-
-.italian {
-  background-color: Black;
-}
-
-/* Typography */
-h1 {
-  color: #191970;
-  font-family: 'Righteous', cursive;
-  font-size: 80px;
-  font-weight: bold;
-  line-height: 76px;
-  margin: 0;
-  position: relative;
-  text-align: center;
-  top: 40%;
-}
-
-h2 .passed {
-  color: #191970;
-  font-family: 'Raleway', sans-serif;
-  font-size: 28px;
-  font-weight: 500;
-  text-align: left;
-  text-transform: uppercase;
-}
-
-h3 .failed {
-  color: #191970;
-  font-family: 'Raleway', sans-serif;
-  font-size: 22px;
-  font-weight: 500;
-  text-align: center;
-}
-
-h4 {
-  color: #191970;
-  font-family: 'Raleway', sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  line-height: .2em;
-  text-align: center;
-  padding-top: 30px;
-  padding-bottom:30px;
  
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
 }
 
-h5 {
-  color: #191970;
-  font-family: 'Raleway', sans-serif;
-  font-size: 20px;
-  line-height: .2em;
-  font-weight: 300;
+.close:hover,
+.close:focus {
+    color: #f44336;
+    cursor: pointer;
 }
 
-/* Page elements */
-ul {
-  margin: 0 auto;
-  padding: 0;
-  width: 75%;
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
-li {
-  border-bottom: 1px solid #191970;
-  list-style: none;
-  margin: 100px 0px;
-  padding-bottom: 60px;
-}
-
-a {
-  color: #191970;
-  font-family: 'Raleway', sans-serif;
-  font-size: 13px;
-  font-weight: 900;
-  text-align: left;
-  text-transform: uppercase;
-  text-decoration: none;
-  letter-spacing: 2px;
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
 }
