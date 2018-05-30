@@ -15,7 +15,7 @@ body {
 }
 
 /** Header styles **/
-head {
+.header {
   background-image: url("https://images6.alphacoders.com/312/thumb-1920-312428.jpg");
   height: 450px;
   background-position: center center;
