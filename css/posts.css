@@ -7,7 +7,7 @@
 
 }
 
-.post-title {
+.postheader {
 color: #C0C0C0;
   font-family: 'Righteous', cursive;
   font-size: 80px;
@@ -19,7 +19,7 @@ color: #C0C0C0;
   top: 40%;
 }
 
-.post-meta {
+.postmeta {
   color: #C0C0C0;
   font-family: 'Raleway', sans-serif;
   font-size: 28px;
@@ -28,7 +28,7 @@ color: #C0C0C0;
   text-transform: uppercase;
 }
 
-.dt-published {
+.dtpublished {
    color: #C0C0C0;
   font-family: 'Raleway', sans-serif;
   font-size: 22px;
@@ -61,7 +61,7 @@ body {
   border: 3px solid #C0C0C0;
 }
 
-.post-header p {
+.postheader p {
   color: #C0C0C0;
   text-align: center;
   line-height: 24px;
