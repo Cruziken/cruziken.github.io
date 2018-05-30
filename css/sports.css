@@ -2,6 +2,11 @@
 ---
 
 @import "{{ site.theme }}";
+
+* {
+    box-sizing: border-box;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -12,9 +17,6 @@ body {
   background: -webkit-linear-gradient(45deg, #000080 0%, #C0C0C0 100%);
   /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(45deg, #000080 0%, #C0C0C0 100%);
-}
-* {
-    box-sizing: border-box;
 }
 
 /* Create three equal columns that floats next to each other */
