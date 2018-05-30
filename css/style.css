@@ -2,98 +2,152 @@
 ---
 
 @import "{{ site.theme }}";
-
-#banner {
-  background-image: "{{site.baseurl}}/assets/img/rasengan.jpg" |;
-  background-size: cover;
-  background-position: bottom center;
-  height: 700px;
-  width: 100%;
+body {
+  padding: 0;
+  margin: 0;
+  background: #000080;
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, #000080 0%, #C0C0C0 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #000080 0%, #C0C0C0 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #000080 0%, #C0C0C0 100%);
 }
 
-#banner .content h1 {
-  border: 3px solid white;
-  position: relative;
-  top: 50px;
-  width: 400px;
-  margin: 0 auto;
+/** Header styles **/
+.header {
+  background-image: url("https://images6.alphacoders.com/312/thumb-1920-312428.jpg");
+  height: 450px;
+  background-position: center center;
+  border: 3px solid #191970;
+  overflow: hidden;
 }
 
-#main {
-  margin: 0 auto;
-  padding: 40px;
+.demo {
+  margin: 40px auto;
+  padding: 20px 30px 40px 30px;
+  background-color: #FFFFFFFFF;
+  overflow: auto;
+  width: 75%;
+  border-radius: 4px;
+  align-self: center;
+  border: 3px solid #191970;
+}
+
+.demo p {
+  color: #191970;
   text-align: center;
-  width: 400px;
-  height: 1000px;
-  overflow: scroll;
-}
-
-h1 {
-  color: white;
-  font-size: 42px;
-  font-weight: 600;
-  text-align: center;
-}
-
-h2 {
-  border: 1px dotted blue;
-  color: rgb(0, 0, 102);
-  font-size: 14px;
-  line-height: 48px;
-  padding: 20px 30px;
-  margin: 30px 20px;
-  text-align: center;
-}
-
-h3 {
-  color: blue;
-  font-size: 26px;
-  font-weight: 700;
-  padding: 20px 10px;
-}
-
-p {
-  color: black;
+  line-height: 24px;
+  font-family: 'Raleway', sans-serif;
   font-size: 16px;
-  line-height: 48px;
-  margin-top: 60px;
-  padding: 10px 20px;
+  font-weight: 400;
 }
 
-.pull-quote {
-  margin: 0 auto;
-  width: 400px;
+.spectrum div {
+  font: inherit;
+  padding: 0 20px;
+  color: #FFFFFF;
+  overflow: auto;
+  opacity: 0.9;
 }
 
-.byline {
-  border-bottom: 1px solid LightGrey;
-  border-top: 1px solid LightGrey;
-  color: DarkGrey;
-  font-size: 14px;
-  font-weight: 200;
+.spectrum p {
+  color: #FFFFFF;
+  text-align: left;
 }
 
-.share {
-  border: 1px solid LightGrey;
-  padding: 40px 0px;
+/* Roast types */
+.green {
+  background-color: DarkSeaGreen;
+}
+
+.light {
+  background-color: Sienna;
+}
+
+.city {
+  background-color: SaddleBrown;
+}
+
+.vienna {
+  background-color: Brown;
+}
+
+.italian {
+  background-color: Black;
+}
+
+/* Typography */
+h1 {
+  color: #191970;
+  font-family: 'Righteous', cursive;
+  font-size: 80px;
+  font-weight: bold;
+  line-height: 76px;
+  margin: 0;
   position: relative;
   text-align: center;
-  width: 100%;
+  top: 40%;
 }
 
-.share a {
-  background: blue;
-  border: 1px solid blue;
-  border-radius: 3px;
-  color: white;
-  display: inline-block;
-  margin: 10px;
-  padding: 14px;
+h2 .passed {
+  color: #191970;
+  font-family: 'Raleway', sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+h3 .failed {
+  color: #191970;
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+}
+
+h4 {
+  color: #191970;
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: .2em;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom:30px;
+ 
+}
+
+h5 {
+  color: #191970;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  line-height: .2em;
+  font-weight: 300;
+}
+
+/* Page elements */
+ul {
+  margin: 0 auto;
+  padding: 0;
+  width: 75%;
+}
+
+li {
+  border-bottom: 1px solid #191970;
+  list-style: none;
+  margin: 100px 0px;
+  padding-bottom: 60px;
+}
+
+a {
+  color: #191970;
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  font-weight: 900;
+  text-align: left;
+  text-transform: uppercase;
   text-decoration: none;
-}
-
-.share a:hover {
-  background: white;
-  border: 1px solid blue;
-  color: blue;
+  letter-spacing: 2px;
 }
