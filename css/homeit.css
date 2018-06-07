@@ -15,6 +15,7 @@ body {
 }
 
 /** Header styles **/
+
 .header {
   background-image: url("https://images6.alphacoders.com/312/thumb-1920-312428.jpg");
   height: 450px;
@@ -82,7 +83,7 @@ body {
 h1 {
   color: #C0C0C0;
   font-family: 'Righteous', cursive;
-  font-size: 80px;
+  font-size: 25%;
   font-weight: bold;
   line-height: 76px;
   margin: 0;
