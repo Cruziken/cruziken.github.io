@@ -18,7 +18,8 @@ body {
 
 .header {
   background-image: url("https://images6.alphacoders.com/312/thumb-1920-312428.jpg");
-  height: 450px;
+  display: block;
+  max-width: 600px;
   width:  100%;
   background-position: center center;
   border: 3px solid #C0C0C0;
@@ -83,7 +84,7 @@ body {
 h1 {
   color: #C0C0C0;
   font-family: 'Righteous', cursive;
-  font-size: 10vw;
+  font-size: 8vw;
   font-weight: bold;
   line-height: 76px;
   margin: 0;
