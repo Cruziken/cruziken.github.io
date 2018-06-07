@@ -21,7 +21,7 @@ body {
   width: 100%;
   background: black url(https://images6.alphacoders.com/312/thumb-1920-312428.jpg) no-repeat;
   background-size: 100% 100%;
-  max-width: 700px;
+  /*max-width: 700px;*/
   background-position: center center;
   border: 3px solid #C0C0C0;
   overflow: hidden;
@@ -93,7 +93,10 @@ h1 {
   text-align: center;
   top: 40%;
 }
-
+@media screen and (min-width: 1200px) {
+  h1{
+     font-size: 80px;
+  }
 h2 {
   color: #C0C0C0;
   font-family: 'Raleway', sans-serif;
