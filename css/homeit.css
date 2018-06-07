@@ -85,7 +85,7 @@ body {
 h1 {
   color: #C0C0C0;
   font-family: 'Righteous', cursive;
-  font-size: 15vw;
+  @include fluid-type(font-size, 600px, 1200px, 80px, 100px);
   font-weight: bold;
   line-height: 76px;
   margin: 0;
@@ -93,10 +93,7 @@ h1 {
   text-align: center;
   top: 40%;
 }
-@media screen and (min-width: 1200px) {
-  h1{
-     font-size: 80px;
-  }
+
 h2 {
   color: #C0C0C0;
   font-family: 'Raleway', sans-serif;
