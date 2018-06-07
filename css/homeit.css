@@ -86,6 +86,7 @@ h1 {
   color: #C0C0C0;
   font-family: 'Righteous', cursive;
   @include fluid-type(font-size, 600px, 1200px, 300px, 400px);
+  font-size: 15vw;
   font-weight: bold;
   line-height: 76px;
   margin: 0;
