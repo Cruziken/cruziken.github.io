@@ -17,10 +17,11 @@ body {
 /** Header styles **/
 
 .header {
-  background-image: url("https://images6.alphacoders.com/312/thumb-1920-312428.jpg");
-  height: 450px;
-  max-width: 600px;
-  width:  100%;
+  height: 450px; 
+  width: 100%;
+  background: black url(https://images6.alphacoders.com/312/thumb-1920-312428.jpg) no-repeat;
+  background-size: 100% 100%;
+  max-width: 700px;
   background-position: center center;
   border: 3px solid #C0C0C0;
   overflow: hidden;
