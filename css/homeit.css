@@ -17,12 +17,12 @@ body {
 /** Header styles **/
 
 .header {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
     /*float: left;*/
   background-size: cover;
   background-image: url("https://images6.alphacoders.com/312/thumb-1920-312428.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
   width: 100vw;
   height: 100vh;
   /*max-width: 700px;*/
