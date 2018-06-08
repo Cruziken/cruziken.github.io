@@ -1,7 +1,4 @@
----
----
-
-@import "{{ site.theme }}";
+@import "minima";
 body {
   padding: 0;
   margin: 0;
@@ -33,14 +30,19 @@ body {
 .viewport-1
 {
   background-size: cover;
+  background-position: center center;
   background-image: url("https://images6.alphacoders.com/312/thumb-1920-312428.jpg");
   height: 100vh;
+  border: 3px solid #C0C0C0;
+  position: relative;
 }
 .viewport-2
 {
   background-size: cover;
+  background-position: center center;
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvIfg3bkrUVxLPvyQ13bEu7QvWBIibchANi8BLJjUaqvuUEw8w");
   height: 100vh;
+  border: 3px solid #C0C0C0;
 }
 .inner-div
 {
@@ -107,13 +109,14 @@ h1 {
   color: #C0C0C0;
   font-family: 'Righteous', cursive;
  /* @include fluid-type(font-size, 600px, 1500px, 80px, 300px); */
-  font-size: 15vw;
+  font-size: 10vw;
   font-weight: bold;
   line-height: 76px;
   margin: 0;
-  position: relative;
-  text-align: center;
-  top: 40%;
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 h2 {
