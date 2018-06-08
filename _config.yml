@@ -8,7 +8,7 @@ paginate:	3 # The number of posts to show per page on your homepage
 twitter_username: cruziken
 github_username:  cruziken
 rss: rss
-url: "http://cruziken.com"
+url: "http://www.cruziken.com"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
