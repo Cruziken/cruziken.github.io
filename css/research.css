@@ -16,13 +16,6 @@ body {
 }
 
 /** Header styles **/
-.header {
-  background-image: url("https://images6.alphacoders.com/312/thumb-1920-312428.jpg");
-  height: 450px;
-  background-position: center center;
-  border: 3px solid #191970;
-  overflow: hidden;
-}
 img.bg {
   /* Set rules to fill background */
   min-height: 100%;
@@ -36,6 +29,7 @@ img.bg {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: -1;
 }
 
 @media screen and (max-width: 1024px) { /* Specific to this particular image */
