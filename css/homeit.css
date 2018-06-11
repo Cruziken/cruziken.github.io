@@ -35,6 +35,7 @@ body {
   height: 100vh;
   border: 3px solid #C0C0C0;
   position: relative;
+  z-index: 1;
 }
 img.bg {
   /* Set rules to fill background */
