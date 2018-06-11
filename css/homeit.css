@@ -70,6 +70,7 @@ img.bg {
   background-color: #FFFFFFFFF;
   overflow: auto;
   width: 75%;
+  max-width: 680px;
   border-radius: 4px;
   align-self: center;
   border: 3px solid #C0C0C0;
