@@ -31,7 +31,7 @@ body {
 {
   background-size: cover;
   background-position: center center;
-  background-image: url("https://qph.fs.quoracdn.net/main-qimg-63e6f6dd5d4d5494d6fcd54501b482fa-c");
+  background-image: url(../assets/img/rasenga.jpg);
   height: 100vh;
   border: 3px solid #C0C0C0;
   position: relative;
