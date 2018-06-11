@@ -31,7 +31,7 @@ body {
 {
   background-size: cover;
   background-position: center center;
-  background-image: url("https://images6.alphacoders.com/312/thumb-1920-312428.jpg");
+  background-image: url("https://qph.fs.quoracdn.net/main-qimg-63e6f6dd5d4d5494d6fcd54501b482fa-c");
   height: 100vh;
   border: 3px solid #C0C0C0;
   position: relative;
@@ -95,27 +95,6 @@ img.bg {
 .spectrum p {
   color: #FFFFFF;
   text-align: left;
-}
-
-/* Roast types */
-.green {
-  background-color: DarkSeaGreen;
-}
-
-.light {
-  background-color: Sienna;
-}
-
-.city {
-  background-color: SaddleBrown;
-}
-
-.vienna {
-  background-color: Brown;
-}
-
-.italian {
-  background-color: Black;
 }
 
 /* Typography */
