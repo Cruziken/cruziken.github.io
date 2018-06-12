@@ -94,7 +94,7 @@ img.bg {
 
 /* Typography */
 h1 {
-  color: #191970;
+  color: #C0C0C0;
   font-family: 'Righteous', cursive;
   font-size: 80px;
   font-weight: bold;
@@ -106,7 +106,7 @@ h1 {
 }
 
 h2 .passed {
-  color: #191970;
+  color: #C0C0C0;
   font-family: 'Raleway', sans-serif;
   font-size: 28px;
   font-weight: 500;
@@ -115,7 +115,7 @@ h2 .passed {
 }
 
 h3 .failed {
-  color: #191970;
+  color: #C0C0C0;
   font-family: 'Raleway', sans-serif;
   font-size: 22px;
   font-weight: 500;
