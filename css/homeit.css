@@ -35,7 +35,6 @@ body {
   height: 100vh;
   border: 3px solid #C0C0C0;
   position: relative;
-  z-index: -1;
 }
 img.bg {
   /* Set rules to fill background */
@@ -49,7 +48,7 @@ img.bg {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: -2;
+  z-index: -1;
 }
 
 @media screen and (max-width: 1024px) { /* Specific to this particular image */
