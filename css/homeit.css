@@ -20,12 +20,12 @@ body {
   background-image: url("https://images6.alphacoders.com/312/thumb-1920-312428.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center; 
+  background-position: center;
   width: 100vw;
   height: 100vh;
   /*max-width: 900px;
   border: 3px solid #C0C0C0;
-  overflow: auto; 
+  overflow: auto;
 }*/
 .viewport-1
 {
@@ -43,7 +43,7 @@ img.bg {
   /* Set up proportionate scaling */
   width: 100%;
   height: auto;
-	
+
   /* Set up positioning */
   position: fixed;
   top: 0;
@@ -94,7 +94,7 @@ img.bg {
 
 .spectrum p {
   color: #FFFFFF;
-  text-align: left;
+  text-align: center;
 }
 
 /* Typography */
@@ -117,16 +117,16 @@ h2 {
   font-family: 'Raleway', sans-serif;
   font-size: 28px;
   font-weight: 500;
-  text-align: left;
   text-transform: uppercase;
 }
 
 h3 {
   color: #C0C0C0;
   font-family: 'Raleway', sans-serif;
-  font-size: 22px;
-  font-weight: 500;
+  font-size: 26px;
+  font-weight: 800;
   text-align: center;
+
 }
 
 h4 {
@@ -135,10 +135,10 @@ h4 {
   font-size: 24px;
   font-weight: 700;
   line-height: .2em;
-  text-align: center;
   padding-top: 30px;
   padding-bottom:30px;
- 
+  text-align: center;
+
 }
 
 h5 {
@@ -168,7 +168,6 @@ a {
   font-family: 'Raleway', sans-serif;
   font-size: 13px;
   font-weight: 900;
-  text-align: left;
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 2px;
