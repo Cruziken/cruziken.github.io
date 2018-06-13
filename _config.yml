@@ -1,17 +1,27 @@
-title: Cruziken
-author: Cruziken
-email: the.cruziken@gmail.com
-description: > # this means to ignore newlines until "twitter_username:"
+title:              Cruziken
+author:             Cruziken
+email:              the.cruziken@gmail.com
+description:        > # this means to ignore newlines until "twitter_username:"
   I am trying to get this website to look nice. It is taking a bit.
 paginate:	3 # The number of posts to show per page on your homepage
 # social links
-twitter_username: cruziken
-github_username:  cruziken
-rss: rss
-url: "http://www.cruziken.com"
+twitter_username:   cruziken
+github_username:    cruziken
+rss:                rss
+url:                "http://www.cruziken.com"
+#atom:
+  #buildCommand:
+    #- C:\Ruby24-x64\bin\jekyll.bat
+    #- serve
+    #- --option
+    #- --this
+#  buildEnv:
+  #  JEKYLL_ENV: development
+#  postDirs:
+#t    - _posts
 # dribbble_username: jekyll
 # facebook_username: jekyll
-# flickr_username: jekyll
+# flickr_username:  jekyll
 # instagram_username: jekyll
 # linkedin_username: jekyll
 # pinterest_username: jekyll
@@ -20,18 +30,17 @@ url: "http://www.cruziken.com"
 
 # Mastodon instances
 # mastodon:
-# - username: jekyll
-#   instance: example.com
-# - username: jekyll2
-#   instance: example.com
+# - username:       jekyll
+#   instance:       example.com
+# - username:       jekyll2
+#   instance:       example.com
 
-
-show_excerpts: false # set to true to show excerpts on the homepage
+show_excerpts:      false # set to true to show excerpts on the homepage
 
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
-  date_format: "%b %-d, %Y"
+  date_format:      "%b %-d, %Y"
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
@@ -39,8 +48,7 @@ minima:
 # - about.html
 
 # Build settings
-theme: minima
-
+theme:              minima
 plugins:
  - jekyll-feed
  - jekyll-seo-tag

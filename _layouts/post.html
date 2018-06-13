@@ -2,36 +2,34 @@
 layout: page
 ---
 <html>
-  <head>
-    <link href="https://fonts.googleapis.com/css?family=Righteous|Raleway:100,500,600,800" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/posts.css">
-  </head>
-  <body>
-    <img src = "../assets/img/sly_cooper.jpg" class = "bg">
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="postheader">
-    <p class="postmeta">
-      <time class="dtpublished" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Righteous|Raleway:100,500,600,800" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/posts.css">
+</head>
+
+<body>
+  <img src="../assets/img/sly_cooper.jpg" class="bg">
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <header class="postheader">
+      <p class="postmeta">
+        <time class="dtpublished" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         {{ page.date | date: date_format }}
-      </time>
-      {%- if page.author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
-      {%- endif -%}</p>
-  </header>
+      </time> {%- if page.author -%} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+        {%- endif -%}</p>
+    </header>
 
-  <div class="post-content e-content" itemprop="articleBody">
-    {{ content }}
-  </div>
+    <div class="post-content e-content" itemprop="articleBody">
+      {{ content }}
+    </div>
 
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
-  {%- endif -%}
+    {%- if site.disqus.shortname -%} {%- include disqus_comments.html -%} {%- endif -%}
 
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-</article>
-    
-  </body>
-  
+    <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+  </article>
+
+</body>
+
 </html>
