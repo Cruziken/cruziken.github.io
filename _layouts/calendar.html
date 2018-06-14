@@ -3,9 +3,10 @@ layout: page
 ---
 <html>
 <head>
-  <title class="unselectable">Calendar</title>
+  <title class="unselectable"> Calendar </title>
  <link href="https://fonts.googleapis.com/css?family=Righteous|Raleway:100,500,600,800" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/fullcalendar.css">
+  <!--<link rel = "stylesheet" type = "text/css" href = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" /> -->
   <link href="{{site.baseurl}}/css/scheduler.css" type = "text/css" rel="stylesheet" />
   <script src="{{"/script/moment.min.js" | prepend: site.baseurl}}"></script>
    <script src="{{"/script/jquery.min.js" | prepend: site.baseurl}}"></script>
@@ -16,20 +17,38 @@ $(function() {
 
   $('#calendar').fullCalendar({
     defaultView: 'timelineDay',
+    events: [
+    {
+      title  : 'event1',
+      start  : '2018-06-13',
+      end    : '2018-06-14'
+    },
+    {
+      title  : 'event2',
+      start  : '2018-06-13T',
+      end    : '2018-06-16'
+    },
+    {
+      title  : 'event3',
+      start  : '2018-06-16T12:30:00',
+      allDay : false, // will make the time show
+      end    : '2018-06-16T14:00:00'
+    }
+  ],
     header: {
       left: 'prev,next',
       center: 'title',
       right: 'timelineDay,timelineWeek,timelineMonth'
     }
   });
+  });
 
-});
   </script>
-  
+
   </head>
   <body>
     <img src = "../assets/img/picka1.jpg" class = "bg">
     <div id='calendar'></div>
-    
+
   </body>
 </html>
