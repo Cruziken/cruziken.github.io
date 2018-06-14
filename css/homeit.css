@@ -1,4 +1,5 @@
 @import "minima";
+
 body {
   padding: 0;
   margin: 0;
@@ -27,36 +28,54 @@ body {
   border: 3px solid #C0C0C0;
   overflow: auto;
 }*/
+/*
+Removes white gap between slides - chagnge to base color of slide images
+*/
+
+.container
+{
+  display: block;
+  /*background-image: url(../assets/img/universe.jpg);*/
+  /*width: 100%;(/)
+  z-index: -1; */
+
+}
 .viewport-1
 {
+  /*
   background-size: cover;
   background-position: center center;
   background-image: url(../assets/img/planet.jpg);
+  */
   height: 100vh;
-  border: 3px solid #C0C0C0;
+  /*border: 3px solid #C0C0C0;*/
   position: relative;
 }
-img.bg {
-  /* Set rules to fill background */
-  min-height: 100%;
-  min-width: 1024px;
-  /* Set up proportionate scaling */
-  width: 100%;
-  height: auto;
 
-  /* Set up positioning */
-  position: fixed;
+ img.bg {
+  /*Set rules to fill background*/
+  min-width: 1024px;
+  /* Set up proportionate scaling*/
+  width: 100%;
+  /*height: 120vh;*/
+  margin-top: 60px;
+  /*margin-bottom:200px;*/
+  /*Set up positioning*/
+  position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
 }
 
-@media screen and (max-width: 1024px) { /* Specific to this particular image */
+@media screen and (max-width: 1024px) { /* Specific to this particular image*/
   img.bg {
     left: 50%;
-    margin-left: -512px;   /* 50% */
+    margin-left: -512px;
+
+    /*max-height: 75%;*/
   }
 }
+
 .inner-div
 {
   padding-top: 50px;
@@ -96,6 +115,7 @@ img.bg {
   color: #FFFFFF;
   text-align: center;
 }
+
 
 /* Typography */
 h1 {
@@ -160,7 +180,6 @@ li {
   border-bottom: 1px solid #C0C0C0;
   list-style: none;
   margin: 100px 0px;
-  padding-bottom: 60px;
 }
 
 a {
@@ -170,5 +189,4 @@ a {
   font-weight: 900;
   text-transform: uppercase;
   text-decoration: none;
-  letter-spacing: 2px;
 }
