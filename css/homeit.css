@@ -1,5 +1,6 @@
 @import "minima";
 
+
 body {
   padding: 0;
   margin: 0;
@@ -55,10 +56,11 @@ Removes white gap between slides - chagnge to base color of slide images
  img.bg {
   /*Set rules to fill background*/
   min-width: 1024px;
+  max-height: 100%;
   /* Set up proportionate scaling*/
   width: 100%;
-  /*height: 120vh;*/
   margin-top: 60px;
+  margin-bottom: 1000px;
   /*margin-bottom:200px;*/
   /*Set up positioning*/
   position: absolute;
@@ -67,7 +69,7 @@ Removes white gap between slides - chagnge to base color of slide images
   z-index: -1;
 }
 
-@media screen and (max-width: 1024px) { /* Specific to this particular image*/
+@media screen and (max-width: 1024px){ /* Specific to this particular image*/
   img.bg {
     left: 50%;
     margin-left: -512px;
@@ -75,6 +77,15 @@ Removes white gap between slides - chagnge to base color of slide images
     /*max-height: 75%;*/
   }
 }
+/*@media screen and (max-height: 800px) { /* Specific to this particular image*/
+  /*img.bg {
+    left: 50%;
+    margin-left: -512px;
+
+    /*max-height: 75%;*/
+  }
+}
+
 
 .inner-div
 {
