@@ -71,8 +71,11 @@ h4 {
   text-align: center;
 
 }
-
-h5 {
+p {
+  color: #C0C0C0;
+  font-family: 'Raleway', sans-serif;s
+}
+h5{
   color: #C0C0C0;
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
@@ -88,9 +91,11 @@ ul {
 }
 
 li {
+  font-family: 'Raleway', sans-serif;
   border-bottom: 1px solid #C0C0C0;
   list-style: none;
   margin: 100px 0px;
+  color: #C0C0C0;
 }
 
 a {
