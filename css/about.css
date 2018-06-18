@@ -54,7 +54,10 @@ body {
   overflow-y: scroll;
 
 }
-
+.site_dis{
+  color: #C0C0C0;
+  font-family: 'Raleway', sans-serif;
+}
 
 .principles{
   border: thick;
