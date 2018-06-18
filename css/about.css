@@ -43,7 +43,10 @@ body {
   border-radius: 25px;
   border: 10px double #C0C0C0;
   text-align: center;
+  max-height: 80%;
+
 }
+
 
 .principles{
   border: thick;
@@ -52,6 +55,7 @@ body {
 }
 .eight, .determination, .patience, .focus, .empathy{
  border-bottom: 2px solid #C0C0C0;
+
 }
 
 /* Typography */
@@ -59,7 +63,7 @@ h1 {
   color: #C0C0C0;
   font-family: 'Righteous', cursive;
  /* @include fluid-type(font-size, 600px, 1500px, 80px, 300px); */
-  font-size: 10vw;
+  font-size: 10vh;
   font-weight: bold;
   line-height: 76px;
   text-align: center;
@@ -68,7 +72,7 @@ h1 {
 h2 {
   color: #C0C0C0;
   font-family: 'Raleway', sans-serif;
-  font-size: 8vh;
+  font-size: 10vh;
   font-weight: 500;
   text-transform: uppercase;
 }
@@ -76,7 +80,7 @@ h2 {
 h3 {
   color: #C0C0C0;
   font-family: 'Raleway', sans-serif;
-  font-size: 26px;
+  font-size: 6vw;
   font-weight: 800;
 
 }
@@ -84,7 +88,7 @@ h3 {
 h4 {
   color: #C0C0C0;
   font-family: 'Raleway', sans-serif;
-  font-size: 24px;
+  font-size: 6vw;
   font-weight: 700;
   line-height: .2em;
   padding-top: 30px;
