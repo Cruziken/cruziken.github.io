@@ -1,148 +1,104 @@
---- --- @import "{{ site.theme }}";
+---
+---
+@import "{{ site.theme }}";
+
+
 body {
   padding: 0;
   margin: 0;
   background: #000080;
   /* Old browsers */
-  background: -moz-linear-gradient(45deg, #000080 0%, #C0C0C0 100%);
+  background: -moz-linear-gradient(45deg, #000080 0%, #191970 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(45deg, #000080 0%, #C0C0C0 100%);
+  background: -webkit-linear-gradient(45deg, #000080 0%, #191970 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(45deg, #000080 0%, #C0C0C0 100%);
+  background: linear-gradient(45deg, #000080 0%, #191970 100%);
 }
 
-/** Header styles **/
 
-.header {
-  background-image: url("https://images6.alphacoders.com/312/thumb-1920-312428.jpg");
-  height: 450px;
-  background-position: center center;
-  border: 3px solid #191970;
-  overflow: hidden;
-}
-
-img.bg {
-  /* Set rules to fill background */
-  min-height: 100%;
-  min-width: 1024px;
-  /* Set up proportionate scaling */
+.page-content
+{
   width: 100%;
-  height: auto;
-  /* Set up positioning */
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -1;
-}
+  height: 100vh;
+  /*background-image: url("../assets/img/forge.png");*/
+  background-position: center;
+  background-size: auto;
+  background-repeat: space;
+  position: relative;
 
-@media screen and (max-width: 1024px) {
-  /* Specific to this particular image */
-  img.bg {
-    left: 50%;
-    margin-left: -512px;
-    /* 50% */
-  }
-}
+  /*width: 100%;(/)
+  z-index: -1; */
 
-.demo {
-  margin: 40px auto;
-  padding: 20px 30px 40px 30px;
-  background-color: #FFFFFFFFF;
-  overflow: auto;
-  width: 75%;
-  border-radius: 4px;
-  align-self: center;
-  border: 3px solid #191970;
 }
-
-.demo p {
-  color: #191970;
+.contain_all{
   text-align: center;
-  line-height: 24px;
-  font-family: 'Raleway', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-}
 
-.spectrum div {
-  font: inherit;
-  padding: 0 20px;
-  color: #FFFFFF;
-  overflow: auto;
-  opacity: 0.9;
 }
-
-.spectrum p {
-  color: #FFFFFF;
+.container{
+  width: 850px;
+  margin: 0 auto;
   text-align: left;
+  position: relative;
 }
-
-/* Roast types */
-
-.green {
-  background-color: DarkSeaGreen;
+.right-side{
+  float: right;
 }
-
-.light {
-  background-color: Sienna;
-}
-
-.city {
-  background-color: SaddleBrown;
-}
-
-.vienna {
-  background-color: Brown;
-}
-
-.italian {
-  background-color: Black;
+.left{
+  float: left;
 }
 
 /* Typography */
-
 h1 {
   color: #C0C0C0;
   font-family: 'Righteous', cursive;
-  font-size: 80px;
+ /* @include fluid-type(font-size, 600px, 1500px, 80px, 300px); */
+  font-size: 10vw;
   font-weight: bold;
   line-height: 76px;
-  margin: 0;
-  position: relative;
-  text-align: center;
-  top: 40%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-h2 .passed {
-  color: #191970;
+h2 {
+  color: #C0C0C0;
   font-family: 'Raleway', sans-serif;
   font-size: 28px;
   font-weight: 500;
-  text-align: left;
   text-transform: uppercase;
 }
 
-h3 .failed {
-  color: #191970;
+h3 {
+  color: #C0C0C0;
   font-family: 'Raleway', sans-serif;
-  font-size: 22px;
-  font-weight: 500;
+  font-size: 26px;
+  font-weight: 800;
   text-align: center;
+
 }
 
 h4 {
-  color: #191970;
+  color: #C0C0C0;
   font-family: 'Raleway', sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: .2em;
-  text-align: center;
   padding-top: 30px;
-  padding-bottom: 30px;
-}
+  padding-bottom:30px;
+  text-align: center;
 
-h5 {
-  color: #191970;
+}
+.site_dis{
+  color: #C0C0C0;
+  font-family: 'Raleway', sans-serif;
+}
+p {
+  color: #C0C0C0;
+  font-family: 'Raleway', sans-serif;
+}
+h5{
+  color: #C0C0C0;
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   line-height: .2em;
@@ -150,7 +106,6 @@ h5 {
 }
 
 /* Page elements */
-
 ul {
   margin: 0 auto;
   padding: 0;
@@ -158,19 +113,18 @@ ul {
 }
 
 li {
-  border-bottom: 1px solid #191970;
+  font-family: 'Raleway', sans-serif;
+  border-bottom: 1px solid #C0C0C0;
   list-style: none;
   margin: 100px 0px;
-  padding-bottom: 60px;
+  color: #C0C0C0;
 }
 
 a {
-  color: #191970;
+  color: #C0C0C0;
   font-family: 'Raleway', sans-serif;
   font-size: 13px;
   font-weight: 900;
-  text-align: left;
   text-transform: uppercase;
   text-decoration: none;
-  letter-spacing: 2px;
 }
